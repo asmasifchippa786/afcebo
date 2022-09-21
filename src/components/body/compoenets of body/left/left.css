@@ -1,0 +1,18 @@
+.viv{
+    height: 100%;
+    width: 40%;
+}
+.viv div{
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.viv div:hover{
+    background-color: rgb(224, 222, 222);
+    border-radius: 5%;
+}
+.viv div span{
+    line-height: 10%;
+}
+

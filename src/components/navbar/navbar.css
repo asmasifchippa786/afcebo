@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ /* navbar css */
+ .navbar{
+   background-color: #fff;
+   padding: 5px 10px 5px 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid rgb(212, 212, 212);
+ }
+ .navbar .logoBar .list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .navbar .logoBar .list li{
+    list-style: none;
+ }
+ .navbar .logoBar .list .logo{
+    font-size: 40px;
+  
+ }
+ .navbar .logoBar .list .logo a{
+    text-decoration: none;
+    color: rgb(0, 76, 255);
+ }
+.navbar .logoBar .inputBar{
+    margin-left: 10px;
+    color: rgb(104, 104, 104);
+}
+.navbar .logoBar .inputBar input{
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.iconBar{
+    display: flex;
+    justify-content: space-between;
+}
+.iconBar .icon{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(189, 189, 189);
+    font-size: 20px;
+    text-align: center;
+    color: rgb(189, 189, 189);
+}
+.porfile{
+    display: flex;
+    justify-content: space-between;
+}
+.porfile .icon{
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.icon1 .icon{
+    margin: 0;
+}
+
+@media (max-width:1015px) {
+    .iconBar{
+        display: none;
+    }
+}
+@media (max-width:516px) {
+    .input{
+        display: none;
+    }
+}
